@@ -2,6 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 import img from "../../public/assets/img.jpg"
 import { AiFillShopping } from "react-icons/ai"
+import Link from 'next/link'
 
 const Hero = () => {
   return (
@@ -20,10 +21,13 @@ const Hero = () => {
           </p>
 
           <div className="flex items-center justify-center mt-4">
+            <Link href={"/customdesign"}>
+           
             <button className="flex items-center font-white p-2 outline outline-offset-2 outline-1 group hover:rounded-3xl duration-300 hover:outline-red-950">
               <AiFillShopping className="mr-2 h-6 w-6 group-hover:text-red-950 group-hover:animate-bounce" />
               Shop now
             </button>
+            </Link>
           </div>
         </div>
       </div>

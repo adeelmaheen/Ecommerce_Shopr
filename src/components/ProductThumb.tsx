@@ -44,7 +44,7 @@ const ProductThumb = ({product}:{product:Product}) => {
         ${product.price?.toFixed(2)}
     </p>
     {/* Add Rating Section */}
-{/* <div className="mt-2 flex items-center">
+ <div className="mt-2 flex items-center">
     <div className="flex items-center">
         {[...Array(5)].map((_, index) => (
             <svg
@@ -52,7 +52,7 @@ const ProductThumb = ({product}:{product:Product}) => {
                 className={`w-4 h-4 ${
                     index < (product?.rating || 0)
                         ? 'text-yellow-400'
-                        : 'text-gray-300'
+                        : 'text-gray-400'
                 }`}
                 fill="currentColor"
                 viewBox="0 0 20 20"
@@ -64,7 +64,7 @@ const ProductThumb = ({product}:{product:Product}) => {
     <span className="ml-2 text-sm text-gray-600">
         {product.rating ? `${product.rating} out of 5` : 'No ratings yet'}
     </span>
-</div> */}
+</div> 
    </div>
    </Link>
    </div>

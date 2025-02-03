@@ -1,0 +1,8 @@
+Test Case ID,Test Case Description,Test Steps,Expected Result,Actual Result,Status,Remarks
+TC001,Verify product listing page displays all products correctly.,"1. Navigate to products page. 2. Check product details (name, price, image).",All products are displayed with correct details.,All products displayed as expected.,Pass,Tested on Chrome and Firefox.
+TC002,Ensure the cart adds items and calculates total accurately.,1. Add product to cart. 2. Verify total price and item count.,Cart updates correctly with accurate total.,Cart updates and totals are accurate.,Pass,Verified with multiple products.
+TC003,Test secure HTTPS implementation across all site pages.,1. Access all pages and verify HTTPS in the browser URL. 2. Confirm secure communication.,HTTPS protocol is consistently used across all pages.,HTTPS implemented successfully on all pages.,Pass,Ensured HTTPS configuration in production environment.
+TC004,"Verify the header is displayed correctly with logo, navigation links, and login/signup options.","High,UI/UX,""Header with logo, links",Header is displayed correctly,Header is displayed correctly,Pass,verified.
+TC005,"Test the search bar functionality (auto-suggestions, product search, and results display).","High,Functional","Test search queries (e.g., 'embroidered bedsheet')",Search bar displays relevant results,Pass,Tested.
+TC006,Ensure the category selector dropdown works and filters the products correctly.,"Medium,Functional",Test categories,Products are filtered based on the selected category,Pass,Tested.
+TC007,"Ensure the sale banner is displayed on the homepage, and the offer is correct.","Medium,UI,",Works Properly,Appear properly,Pass,Tested.

@@ -114,6 +114,7 @@ export type Order = {
 };
 
 export type Product = {
+  rating: number;
   _id: string;
   _type: "product";
   _createdAt: string;
