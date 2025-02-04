@@ -58,19 +58,19 @@ export const productType =  defineType ({
             of: [{type: 'reference', to: {type: 'category'}}],
         }),
           // Average rating (0-5)
-         defineField({
-              name: 'averageRating',
-              title: 'Average Rating',
-              type: 'number',
-              description: 'average rating.',
-           }),
+        //  defineField({
+        //       name: 'averageRating',
+        //       title: 'Average Rating',
+        //       type: 'number',
+        //       description: 'average rating.',
+        //    }),
         // Total number of reviews
-          defineField({
-            name: 'reviewCount',
-            title: 'Review Count',
-            type: 'number',
-            description: 'total number of reviews.',
-            }),
+        //   defineField({
+        //     name: 'reviewCount',
+        //     title: 'Review Count',
+        //     type: 'number',
+        //     description: 'total number of reviews.',
+        //     }),
           defineField({
             name: 'stock',
             title: 'Stock',
