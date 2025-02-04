@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import ChatIcon from './ChatIcon';
 // import {GiHamburgerMenu} from 'react-icons/gi';
 
 const SubHeader = () => {
@@ -61,7 +62,8 @@ const SubHeader = () => {
         </ul>
       </div>
       <div className="navbar-end">
-        <Link href={"#"} className="btn"></Link>
+        {/* <Link href={"#"} className="btn"></Link> */}
+        <ChatIcon/>
       </div>
     </div>
     
