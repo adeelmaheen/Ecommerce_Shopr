@@ -47,7 +47,10 @@ const Contact = () => {
       <p className="leading-relaxed mb-5 text-gray-600">
         Feel free to contact us and also send your feedbacks too.
       </p>
-      <div className="relative mb-4">
+      <form action={"https://formspree.io/f/xpwqrevo"} method='POST'>
+        <div className="relative mb-4">
+
+        
         <label htmlFor="name" className="leading-7 text-sm text-gray-600">
           Name
         </label>
@@ -83,9 +86,9 @@ const Contact = () => {
       <button className="text-white  border-0 py-2 px-6 focus:outline-none  bg-blue-500 hover:bg-blue-700 rounded text-lg">
         Contact Us
       </button>
-      <p className="text-xs text-gray-500 mt-3">
-        
-      </p>
+      </form>
+      <p className="text-xs text-gray-500 mt-3"></p>
+      
     </div>
   </div>
 </section>
